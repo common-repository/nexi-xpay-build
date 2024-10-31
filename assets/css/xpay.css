@@ -1,0 +1,150 @@
+/**
+ * Copyright (c) 2019 Nexi Payments S.p.A.
+ *
+ * @author      iPlusService S.r.l.
+ * @category    Payment Module
+ * @package     Nexi XPay
+ * @version     6.0.0
+ * @copyright   Copyright (c) 2019 Nexi Payments S.p.A. (https://ecommerce.nexi.it)
+ * @license     GNU General Public License v3.0
+ */
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img {
+    width: fit-content;
+    max-width: 50px;
+    max-height: 20px;
+    transform: scale(1.2);
+    margin-left: 15px;
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*="google-pay"]) {
+    transform: scale(2);
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*="pagolight"]) {
+    transform: scale(2.5);
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*="skrill"]) {
+    max-width: 40px;
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*="alipay"]) {
+    transform: scale(2);
+    max-width: 35px;
+    margin-left: 30px;
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*="wechat"]) {
+    transform: scale(1.5);
+}
+
+#payment .payment_methods li[class*="payment_method_xpay"] label img:where([src*=".svg"]),
+#payment .payment_methods .nexixpay-loghi-container div.img-container img:where([src*=".svg"]) {
+    width: 50px;
+    height: auto;
+}
+
+#payment .payment_methods .nexixpay-loghi-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-inline: -5px;
+    margin-bottom: 15px;
+}
+
+#payment .payment_methods .nexixpay-loghi-container div.img-container {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}
+
+#payment .payment_methods .nexixpay-loghi-container div.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+#payment .payment_methods li p.pagodil-select,
+.entry-content p.pagodil-select {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#payment .payment_methods select.pagodil-select {
+    width: 127px;
+}
+
+#payment .payment_methods p.with-margin-top {
+    margin-top: 15px;
+}
+
+.pagodil-p-size {
+    font-size: 16px;
+}
+
+.wc-payment-form .build-field-row {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    gap: 5px;
+}
+
+.wc-payment-form .build-field-row:has(div:empty) {
+    gap: 0 !important;
+}
+
+div#EXPIRATION_DATE {
+    width: 60%;
+}
+
+div#SECURITY_CODE {
+    width: 40%;
+}
+
+.wc-payment-form .iframe-field {
+    height: 50px;
+    border: none;
+}
+
+.npg-build-error-msg-container {
+    color: red;
+    margin-block: 5px;
+}
+
+.nexi-hide {
+    display: none !important;
+}
+
+p.loading {
+    color: black;
+    font-size: 2em;
+}
+
+p.loading:after {
+    content: " .";
+    animation: dots 1s steps(5, end) infinite;
+}
+
+@keyframes dots {
+    0%,
+    20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    40% {
+        color: black;
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    60% {
+        text-shadow: 0.25em 0 0 black, 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    80%,
+    100% {
+        text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
+    }
+}

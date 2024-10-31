@@ -1,0 +1,1214 @@
+# Copyright (C) 2021 Nexi SpA
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexi XPay 5.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"gateway-nexi-xpay\n"
+"POT-Creation-Date: 2021-11-16 09:07+0100\n"
+"PO-Revision-Date: 2024-02-14 15:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italiano\n"
+"Language: it-IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woocommerce-gateway-nexi-xpay\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:66 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:79 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:53
+msgid " configurations"
+msgstr " configurazioni"
+
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:33
+msgid " via Nexi XPay"
+msgstr "  tramite Nexi XPay"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:136
+msgid "\"Find out more\" link"
+msgstr "Link \"Scopri di più\""
+
+#. 1: credit card type 2: last 4 digits 3: expiry month 4: expiry year
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:292
+#, php-format
+msgid "%1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr "%1$s che finisce con %2$s (scadenza %3$s/%4$s)"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:148
+msgid ""
+"(for example, shipping and / or invoicing address, payment details). Nexi "
+"and the International Circuits use the additional data collected separately "
+"for the purpose of fraud prevention."
+msgstr ""
+"(ad esempio, la spedizione e / o indirizzo di fatturazione, dettagli di "
+"pagamento). Nexi e i Circuiti internazionali utilizzano i dati aggiuntivi "
+"raccolti separatamente ai fini della prevenzione delle frodi."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:268
+msgid ""
+"1 to 99 installments, 1 for one shot payment. Before set up a configuration, "
+"make sure to check with your payment provider what is the maximum number "
+"accepted for your terminal."
+msgstr ""
+"Da 1 a 99 rate, 1 per pagamento in un'unica soluzione. Prima di impostare "
+"una configurazione, assicurati di verificare con il tuo fornitore di servizi "
+"di pagamento qual è il numero massimo accettato per il tuo terminale."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:146 
+#: src/classes/Nexi/WC_Gateway_Admin.php:147
+msgid "3D Secure 2 Service"
+msgstr "Servizio 3D Secure 2"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:138
+msgid ""
+"A POST notification by the Nexi servers is sent to the following address, "
+"containing information on the outcome of the payment."
+msgstr ""
+"Sul seguente indirizzo viene inviata una notifica POST da parte dei server "
+"Nexi, contenente le informazioni sull'esito del pagamento."
+
+#: templates/xpay_payment_detail.php:114 templates/npg_payment_detail.php:166
+msgid "Account"
+msgstr "Contabilizza"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:207
+msgid "Accounting"
+msgstr "Contabilizzazione"
+
+#: templates/xpay_payment_detail.php:111
+#, php-format
+msgid "Accounting of transaction %s successful"
+msgstr "Contabilizzazione della transazione %s effettuata con successo"
+
+#: templates/xpay_payment_detail.php:62 templates/npg_payment_detail.php:104
+msgid "Accounting operations"
+msgstr "Operazioni contabili"
+
+#: templates/npg_payment_detail.php:163
+msgid "Accounting successful"
+msgstr "Contabilizzazione avvenuta con successo"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:44
+msgid "Activate the PagoDIL payment method within the store."
+msgstr "Attiva il metodo di pagamento PagoDIL all'interno del negozio."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:279
+msgid "Add amount and installments for each row. The installments limit is 99"
+msgstr "Aggiungi importo e rate per ogni riga. Il limite delle rate è 99"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:455
+msgid "Add rule"
+msgstr "Aggiungi regola"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:176
+msgid "Alias"
+msgstr "Alias"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:165
+msgid "Alias and MAC Key"
+msgstr "Alias - Chiave MAC"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:74
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: templates/xpay_payment_detail.php:74 templates/npg_payment_detail.php:116
+msgid "Amount"
+msgstr "Importo"
+
+#: templates/xpay_payment_detail.php:41 templates/npg_payment_detail.php:90
+msgid "Amount: "
+msgstr "Importo: "
+
+#: src/classes/Nexi/WC_Pagodil_Widget.php:59 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:77
+#, php-format
+msgid "Amount: %s installments of %s€"
+msgstr "Importo: %s rate da %s€"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:191
+msgid "API Key"
+msgstr "API Key"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:166
+msgid "APIKey"
+msgstr "APIKey"
+
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:62 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:75 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:49
+#| msgid "APMs do not have a custom configuration."
+msgid "APMs do not have a custom configuration. "
+msgstr "Gli APM non hanno una configurazione personalizzata."
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:130 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:48 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:174 
+#: src/classes/Nexi/WC_Gateway_XPay_Generic_Method.php:74
+msgid ""
+"Attention, the order for which you are making payment contains recurring "
+"payments, payment data will be stored securely by Nexi."
+msgstr ""
+"Attenzione, l'ordine per il quale si sta provvedendo al pagamento contiene "
+"pagamenti ricorrenti, i dati di pagamento verranno memorizzati in modo "
+"sicuro da Nexi."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:341
+msgid "Border Color"
+msgstr "Colore bordo"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:348
+msgid "Buy now and pay a little by little with PagoDIL"
+msgstr "Acquista subito e paga un po' alla volta con PagoDIL"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:145
+msgid ""
+"By activating this option it is established that the terms and conditions "
+"that you submit to your customers, with particular reference to the privacy "
+"policy, are foreseen to include the acquisition and processing of additional "
+"data provided by the"
+msgstr ""
+"Attivando questa opzione viene stabilito che i termini e le condizioni che "
+"invii ai tuoi clienti, con particolare riferimento alla politica sulla "
+"privacy, sono previsti per includere l'acquisizione e l'elaborazione di dati "
+"aggiuntivi forniti dal"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:289
+msgid ""
+"By using this configurator you can change the look and feel of your module"
+msgstr "Utilizzando il configuratore potrai personalizzare l'aspetto del form"
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:540
+#| msgid "Can't connect."
+msgid "Can't connect!"
+msgstr "Impossibile connettersi."
+
+#: templates/xpay_payment_detail.php:17 templates/npg_payment_detail.php:51
+msgid "Card detail"
+msgstr "Dettaglio carta"
+
+#: templates/build_preview.php:4
+msgid "Card Number"
+msgstr "Numero carta"
+
+#: templates/xpay_payment_detail.php:26 templates/npg_payment_detail.php:57
+msgid "Card pan: "
+msgstr "Pan carta: "
+
+#: templates/xpay_payment_detail.php:20 templates/npg_payment_detail.php:54
+msgid "Card: "
+msgstr "Carta: "
+
+#: templates/xpay_payment_detail.php:4 templates/npg_payment_detail.php:36
+msgid "Cardholder"
+msgstr "Titolare carta"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:81
+msgid "Categories"
+msgstr "Categorie"
+
+#: templates/pagodil_checkout.php:22
+msgid "Choose the number of installments"
+msgstr "Scegli il numero di rate"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:162
+msgid "Choose the type of credentials you have available for XPay"
+msgstr ""
+"Scegliere la tipologia di credenziali che si ha a disposizione per XPay"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:102
+msgid "Cofidis product code (Optional)"
+msgstr "Codice prodotto Cofidis (Opzionale)"
+
+#: templates/xpay_payment_detail.php:48
+msgid "Contract number: "
+msgstr "Numero contratto: "
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:554
+#, php-format
+msgid "CURL exec error: %s"
+msgstr "Errore CURL: %s"
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:330
+msgid "Customer not found."
+msgstr "Cliente non trovato."
+
+#: src/classes/Nexi/WC_Admin_Page.php:155
+msgid "Czech Kurun"
+msgstr "Corona Ceca"
+
+#: templates/xpay_payment_detail.php:72 templates/npg_payment_detail.php:117
+msgid "Date"
+msgstr "Data"
+
+#: templates/xpay_payment_detail.php:38 templates/npg_payment_detail.php:78
+msgid "Date: "
+msgstr "Data: "
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:211
+msgid "Deferred"
+msgstr "Differita"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:458
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/xpay_payment_detail.php:110 templates/npg_payment_detail.php:162
+msgid "Do you confirm to account"
+msgstr "Confermi di voler contabilizzare"
+
+#: src/classes/Nexi/WC_Pagodil_Widget.php:202
+#, php-format
+#| msgid ""
+#| "Do you want to pay convenient installments without interest with PagoDIL by "
+#| "Cofidis? Reach the minimum amount of %s € in the cart"
+msgid ""
+"Do you want to pay convenient installments without interest with PagoDIL by "
+"Cofidis? Reach the minimum amount of %s€ in the cart"
+msgstr ""
+"Vuoi pagare in comode rate senza interessi con PagoDIL by Cofidis? Raggiungi "
+"il valore minimo di %s€ nel carrello"
+
+#: src/classes/Nexi/WC_Admin_Page.php:157 
+#: src/classes/Nexi/WC_Admin_Page.php:158
+msgid "Dollars"
+msgstr "Dollari"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:248
+msgid "Easily pay with your Apple Pay wallet"
+msgstr "Paga facilmente con il tuo wallet Apple Pay"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:243
+msgid "Easily pay with your Google Pay wallet"
+msgstr "Paga facilmente con il tuo wallet Google Pay"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:217
+msgid "Enable 3D Secure 2 service"
+msgstr "Abilita il servizio 3D Secure 2"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:237
+#| msgid "Enable Nexi XPay for Multcurrency payments"
+msgid "Enable Nexi XPay for Multicurrency payments"
+msgstr "Abilita Nexi XPay ai pagamenti Multivaluta"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:226
+msgid "Enable Nexi XPay for OneClick payment"
+msgstr "Abilita Nexi XPay ai pagamenti OneClick"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:228
+msgid ""
+"Enable Nexi XPay for OneClick payment. Make sure that this option is also "
+"enabled on your terminal configuration."
+msgstr ""
+"Abilita il modulo per i pagamenti OneClick. Assicurati che questa opzione "
+"sia abilitata anche nella configurazione del tuo terminale."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:390
+msgid "Enable Nexi XPay for subscription's payment"
+msgstr "Abilita Nexi XPay ai pagamenti ricorrenti"
+
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:76 
+#: src/classes/Nexi/WC_Gateway_Admin.php:154 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:63
+msgid "Enable Nexi XPay payment plugin."
+msgstr "Abilita il plugin di pagamento Nexi XPay."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:202
+msgid "Enable Nexi XPay plugin in testing mode."
+msgstr "Abilita il plugin Nexi XPay in modalità di test."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:42
+msgid "Enable PagoDIL"
+msgstr "Abilita PagoDIL"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:115
+msgid ""
+"Enable the PagoDIL widget on products that can be paid in installments. The "
+"widget shows information relating to the installment payments made available "
+"on the product."
+msgstr ""
+"Abilita il widget PagoDIL sui prodotti rateizzabili. Il widget mostra "
+"informazioni relative alla rateizzazione messa a disposizione sul prodotto."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:219
+msgid "Enable the sending of the fields for the 3D Secure 2 service"
+msgstr "Abilita l'invio dei campi aggiuntivi per il servizio 3D Secure 2"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:239
+#| msgid ""
+#| "Enable this option to make the payment methods available for different "
+#| "currencies. To have the complete list of the supported currencies, please "
+#| "visit the developer Portel. Make sure that this option is also enabled on "
+#| "your terminal configuration."
+msgid ""
+"Enable this option to make the payment methods available for different "
+"currencies. To have the complete list of the supported currencies, please "
+"visit the developer Portal. Make sure that this option is also enabled on "
+"your terminal configuration."
+msgstr ""
+"Abilita questa opzione per rendere disponibili i metodi di pagamento per "
+"diverse valute. Per avere l'elenco completo delle valute supportate, visita "
+"il Portale sviluppatori. Assicurati che questa opzione sia abilitata anche "
+"nella configurazione del tuo terminale."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:250
+msgid ""
+"Enable this option to use installment payments via XPay. This functionality "
+"is only available to merchants with Greek VAT Number. Before enabling this "
+"functionality, make sure it is available on your terminal with your payment "
+"provider."
+msgstr ""
+"Abilita questa opzione per utilizzare i pagamenti rateali tramite XPay. "
+"Questa funzionalità è disponibile solo per i commercianti con partita IVA "
+"greca. Prima di abilitare questa funzionalità, assicurati che sia "
+"disponibile sul tuo terminale presso il tuo fornitore di servizi di "
+"pagamento."
+
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:74 
+#: src/classes/Nexi/WC_Gateway_Admin.php:152 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:61
+msgid "Enable/Disable"
+msgstr "Abilita/Disabilita"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:246 
+#: src/classes/Nexi/WC_Gateway_Admin.php:248
+msgid "Enable/Disable Installment Payments"
+msgstr "Abilita/Disabilita pagamenti rateali"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:235
+#| msgid "Enable/Disable Multcurrency"
+msgid "Enable/Disable Multicurrency"
+msgstr "Abilita/Disabilita Multivaluta"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:224
+msgid "Enable/Disable OneClick"
+msgstr "Abilita/Disabilita OneClick"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:388
+msgid "Enable/Disable Recurring"
+msgstr "Abilita/Disabilita ricorrenze"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:200
+msgid "Enable/Disable TEST Mode"
+msgstr "Abilita/Disabilita modalità di TEST"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:350
+msgid "Error Border Color"
+msgstr "Colore bordo errore"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:106
+msgid "Error during payment proccess"
+msgstr "Errore durante il processo di pagamento"
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:384 
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:425 
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:470 
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:523 
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:620 
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:686
+msgid "Error in the calculation of the return MAC parameter"
+msgstr "Errore nel calcolo del parametro MAC di ritorno"
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:87
+msgid "Error while checking credentials."
+msgstr "Errore durante il controllo delle credenziali."
+
+#: src/classes/Nexi/WC_Admin_Page.php:154
+msgid "Euros"
+msgstr "Euro"
+
+#: templates/xpay_payment_detail.php:29
+msgid "Expiry date: "
+msgstr "Data scadenza: "
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:299
+msgid "Font family"
+msgstr "Carattere"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:307
+msgid "Font size"
+msgstr "Dimensione Carattere"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:315
+msgid "Font style"
+msgstr "Stile Carattere"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:317
+msgid "Font style in the CC Form"
+msgstr "Lo stile del font nel form per le carte di credito"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:324
+msgid "Font variant"
+msgstr "Variante Carattere"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:326
+msgid "Font variant in the CC Form"
+msgstr "La viariante dello stile del font nel form per le carte di credito"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:137
+msgid ""
+"For a correct behavior of the module, check in the configuration section of "
+"the Nexi back-office that the transaction cancellation in the event of a "
+"failed notification is set."
+msgstr ""
+"Per un corretto funzionamento del modulo, verificare nella sezione di "
+"configurazione del back-office Nexi che sia impostato l'annullo delle "
+"transazioni in caso di notifica fallita."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:73
+msgid "For selected categories"
+msgstr "Per categorie selezionate"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:193
+msgid ""
+"Generated from the Back Office XPay. Follow the directions in the developer "
+"portal for the correct generation process."
+msgstr ""
+"Generata da Back Office XPay. Seguire le indicazioni nel portale "
+"sviluppatori per il procedimento di generazione corretto."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:178 
+#: src/classes/Nexi/WC_Gateway_Admin.php:184 
+#: src/classes/Nexi/WC_Gateway_Admin.php:397 
+#: src/classes/Nexi/WC_Gateway_Admin.php:403 
+#: src/classes/Nexi/WC_Gateway_Admin.php:409
+msgid "Given to Merchant by Nexi."
+msgstr "Fornito all'esercente da Nexi."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:407
+msgid "Group"
+msgstr "Gruppo"
+
+#. Author URI of the plugin
+msgid "https://www.nexi.it"
+msgstr "https://www.nexi.it"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:104
+msgid ""
+"If you have more than one Cofidis product code, enter the code that will be "
+"used by the plugin for payment via PagoDIL."
+msgstr ""
+"Nel caso si disponga di più codici prodotto Cofidis, inserire il codice che "
+"verrà utilizzato dal plugin per il pagamento tramite PagoDIL."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:210
+msgid "Immediate"
+msgstr "Immediata"
+
+#: templates/npg_build_payment.php:9
+msgid "Incorrect or missing data"
+msgstr "Dati errati o mancanti"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:70
+msgid "Installment products"
+msgstr "Prodotti rateizzabili"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:108
+msgid "Installments"
+msgstr "Numero di rate"
+
+#: templates/npg_payment_detail.php:85
+msgid "Installments: "
+msgstr "Numero di rate: "
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:266 
+#: src/classes/Nexi/WC_Gateway_NPG_Process_Completion.php:393
+msgid "Invalid amount."
+msgstr "Importo non valido."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:78
+msgid "Invalid API Key. Check and try again."
+msgstr "API Key non valida. Controlla e riprova."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:69
+msgid "Invalid credentials. Check and try again."
+msgstr "Credenziali non valide. Controlla e riprova."
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:115 
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:116
+msgid "Invalid plugin variant value"
+msgstr "Variante plugin non valida"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Generic_Method.php:121 
+#: src/classes/Nexi/WC_Gateway_XPay_Generic_Method.php:162
+msgid "Invalid refund amount."
+msgstr "Importo non valido."
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:240
+msgid ""
+"It was not possible to process the payment, check that the shipping address "
+"set is correct."
+msgstr ""
+"Non è stato possibile processare il pagamento, controllare che l'indirizzo "
+"di spedizione impostato sia corretto."
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:561
+msgid "JSON error"
+msgstr "Errore JSON"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:182
+msgid "Key MAC"
+msgstr "Chiave MAC"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:333
+msgid "Letter spacing"
+msgstr "Spaziatura"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:128
+msgid "Logo type"
+msgstr "Tipologia logo"
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:131
+msgid "Mac verification failed"
+msgstr "Verifica Mac fallita"
+
+#: templates/npg_payment_detail.php:43
+msgid "Mail: "
+msgstr "Email:"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:56
+msgid "Maximum cart value"
+msgstr "Valore massimo carrello"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:59
+msgid ""
+"Maximum cart value (in Euro) for which it will be possible to proceed "
+"through installment payments with PagoDIL. This value corresponds to the "
+"amount set in the XPay back office."
+msgstr ""
+"Massimo valore del carrello (in Euro) per cui sarà possibile procedere "
+"tramite pagamenti rateali con PagoDIL. Questo valore corrisponde all'importo "
+"impostato nel back office XPay."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:446
+msgid "Maximum installments"
+msgstr "Numero massimo di rate"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:275 
+#: src/classes/Nexi/WC_Gateway_Admin.php:277
+msgid "Maximum number of installments depending on the total order amount"
+msgstr "Numero massimo di rate in base all'importo totale dell'ordine"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:263 
+#: src/classes/Nexi/WC_Gateway_Admin.php:266
+msgid "Maximum number of installments regardless of the total order amount"
+msgstr ""
+"Numero massimo di rate indipendentemente dall'importo totale dell'ordine"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:98
+msgid ""
+"Maximum number of products in the cart for which it will be possible to "
+"proceed through installment payments with PagoDIL."
+msgstr ""
+"Numero massimo di prodotti nel carrello per cui sarà possibile procedere "
+"tramite pagamenti rateali con PagoDIL.\n"
+"\n"
+"\n"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:49
+msgid "Minimum cart value"
+msgstr "Valore minimo carrello"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:52
+msgid ""
+"Minimum cart value (in Euro) for which it will be possible to proceed "
+"through installment payments with PagoDIL. This value corresponds to the "
+"amount set in the XPay back office."
+msgstr ""
+"Minimo valore del carrello (in Euro) per cui sarà possibile procedere "
+"tramite pagamenti rateali con PagoDIL. Questo valore corrisponde all'importo "
+"impostato nel back office XPay."
+
+#: src/classes/Nexi/WC_Admin_Page.php:171
+msgid "Missing codTrans"
+msgstr "CodTrans mancante"
+
+#: templates/build_preview.php:5
+msgid "MM/YY"
+msgstr "MM/YY"
+
+#: templates/xpay_payment_detail.php:7 templates/npg_payment_detail.php:39
+msgid "Name: "
+msgstr "Nome: "
+
+#: templates/xpay_payment_detail.php:23
+msgid "Nationality: "
+msgstr "Nazionalità: "
+
+#: templates/xpay_payment_detail.php:64 templates/npg_payment_detail.php:106
+msgid "New accounting operation"
+msgstr "Nuova operazione contabile"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:39 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:118
+msgid "New payment methods can only be added during checkout"
+msgstr ""
+"Nuovi metodi di pagamento possono essere aggiunti solo durante il riepilogo "
+"dell'ordine."
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:94 
+#: src/classes/Nexi/WC_Gateway_XPay_Generic_Method.php:69
+msgid "New payment methods can only be added during checkout."
+msgstr ""
+"Nuovi metodi di pagamento possono essere aggiunti solo durante il riepilogo "
+"dell'ordine."
+
+#: src/classes/Nexi/WC_Admin_Page.php:121
+msgid "Nexi payment details"
+msgstr "Dettagli pagamento Nexi"
+
+#. Author of the plugin
+msgid "Nexi SpA"
+msgstr "Nexi SpA"
+
+#. Name of the plugin
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:65 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:78 
+#: src/classes/Nexi/WC_Gateway_Admin.php:22 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:52
+msgid "Nexi XPay"
+msgstr "Nexi XPay"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:224
+msgid "Nexi XPay payment and card tokenization successful"
+msgstr "Pagamento tramite Nexi XPay e salvataggio carta avvenuto con successo"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:232
+msgid "Nexi XPay payment successful"
+msgstr "Pagamento tramite Nexi XPay avvenuto con successo"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:228
+msgid "Nexi XPay payment with tokenized card successful"
+msgstr "Pagamento tramite Nexi XPay con carta salvata avvenuto con successo"
+
+#: src/classes/Nexi/WC_Pending_Status.php:21 
+#: src/classes/Nexi/WC_Pending_Status.php:32
+msgid "Nexi: pending payment"
+msgstr "Nexi: Da Autorizzare"
+
+#: src/classes/Nexi/WC_Pending_Status.php:26
+#, php-format
+msgid "Nexi: pending payment (%s)"
+msgid_plural "Nexi: pending payment (%s)"
+msgstr[0] "Nexi: Da Autorizzare (%s)"
+msgstr[1] "Nexi: Da Autorizzare (%s)"
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:346
+msgid "NPG orderId not found for order: "
+msgstr "NPG orderId non trovato per l'ordine: "
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:63 
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:120
+msgid "Number of installments"
+msgstr "Numero di rate"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:123
+msgid ""
+"Number of installments displayed within the widget. It is possible to select "
+"only one value (e.g. or 5 interest-free installments)."
+msgstr ""
+"numero di rate visualizzate all'interno del widget. E' possibile selezionare "
+"un solo valore (es. o 5 rate senza interessi)."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:66
+msgid ""
+"Number of installments made available for payment via PagoDIL. The rates "
+"displayed correspond to the values set in the XPay back office."
+msgstr ""
+"Numero di rate messe a disposizione nel pagamento tramite PagoDIL. Le rate "
+"visualizzate corrispondono ai valori impostati nel back office XPay."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:96
+msgid "Number of products in the cart (Optional)"
+msgstr "Numero prodotti nel carrello (Opzionale)"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:111
+msgid "One time solution"
+msgstr "Unica soluzione"
+
+#: templates/npg_payment_detail.php:93
+msgid "Order ID: "
+msgstr "ID Ordine:"
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:357
+msgid "Order not found."
+msgstr "Ordine non trovato."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:37
+msgid "PagoDIL by Cofidis"
+msgstr "PagoDIL by Cofidis"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:255
+msgid "PagoDIL institutional logo"
+msgstr "Logo istituzionale PagoDIL"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:273
+msgid "Pay directly from your bank account with Giropay"
+msgstr "Paga in sicurezza direttamente dal tuo conto bancario con Giropay"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:278
+msgid "Pay directly from your bank account with iDEAL"
+msgstr "Paga in sicurezza direttamente dal tuo conto bancario con iDEAL"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:283
+msgid "Pay easily with Bancontact"
+msgstr "Paga facilmente con Bancontact"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:328
+msgid "Pay easily with your Amazon account"
+msgstr "Paga facilmente con il tuo account Amazon"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:323
+msgid "Pay easily with your Satispay account"
+msgstr "Paga facilmente con il tuo account Satispay"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:343
+msgid "Pay in 3 installments with Klarna interest-free"
+msgstr "Paga in 3 rate senza interessi tramite Klarna"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:338
+msgid "Pay in 3 or 4 installments by credit, debit or Postepay card with Oney"
+msgstr "Paga in 3 o 4 rate con carta di credito, debito o Postepay con Oney"
+
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:28
+msgid "Pay in installments without interest"
+msgstr "Paga a rate senza interessi"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:303
+msgid "Pay in one tap with your Skrill wallet"
+msgstr "Paga in un tap con il tuo wallet Skrill"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:263
+msgid "Pay quickly and easily with your AliPay wallet"
+msgstr "Paga in modo semplice e veloce con il tuo wallet AliPay"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:298
+msgid "Pay quickly and easily with your Skrill wallet"
+msgstr "Paga in modo semplice e veloce con il tuo wallet Skrill"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:268
+msgid "Pay quickly and easily with your WeChat Pay wallet"
+msgstr "Paga in modo semplice e veloce con il tuo wallet WeChat Pay"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:258
+msgid "Pay securely by bank transfer with MyBank"
+msgstr "Paga in sicurezza tramite bonifico bancario con MyBank"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:28 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:29 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:46 
+#: src/classes/Nexi/WC_Gateway_Admin.php:25 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:46
+#| msgid "Pay securely by credit, debit and prepaid card through Nexi."
+msgid "Pay securely by credit, debit and prepaid card. Powered by Nexi."
+msgstr ""
+"Paga in tutta sicurezza con carta di credito, debito e prepagata tramite "
+"Nexi."
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:333
+msgid "Pay securely with your PayPal account"
+msgstr "Paga in sicurezza con il account PayPal"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:253
+msgid "Pay via BANCOMAT Pay just by entering your phone number"
+msgstr "Paga tramite BANCOMAT Pay inserendo solo il tuo numero di telefono"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:242
+msgid "Payment canceled: "
+msgstr "Pagamento annullato: "
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:24 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:25 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:25 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:25
+msgid "Payment cards"
+msgstr "Carte di pagamento"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:258
+msgid "Payment denied, please retry the transaction using the same card."
+msgstr ""
+"Pagamento negato, la preghiamo di riprovare la transazione utilizzando la "
+"stessa carta."
+
+#: woocommerce-gateway-nexi-xpay.php:196 
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:154 
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:210 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:255 
+#: src/classes/Nexi/WC_Gateway_NPG_Process_Completion.php:316 
+#: src/classes/Nexi/WC_Gateway_NPG_Process_Completion.php:322
+msgid "Payment error"
+msgstr "Errore nel pagamento"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:89 
+#: src/classes/Nexi/WC_Gateway_NPG_Process_Completion.php:88
+msgid "Payment error, please try again"
+msgstr "Errore nel pagamento, riprova"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:25 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards_Build.php:26 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:26 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:26
+msgid "Payment gateway."
+msgstr "Gateway di pagamento."
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:245 
+#: src/classes/Nexi/WC_Gateway_NPG_Process_Completion.php:373
+msgid "Payment has been cancelled."
+msgstr "Il pagamento è stato annullato."
+
+#. Description of the plugin
+#: src/classes/Nexi/WC_Gateway_Admin.php:23
+msgid ""
+"Payment plugin for payment cards and alternative methods. Powered by Nexi."
+msgstr ""
+"Plugin di pagamento per carte di pagamento e metodi alternativi tramite Nexi."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:359
+msgid "Placeholder Color"
+msgstr "Colore placeholder"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:204
+msgid "Please refer to Dev Portal to get access to the Sandbox"
+msgstr ""
+"Si prega di fare riferimento al Portale sviluppatori per ottenere l'accesso "
+"alla Sandbox."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:204
+msgid "Please register at"
+msgstr "Si prega di registrarsi sul sito"
+
+#: src/classes/Nexi/WC_Gateway_NPG_APM.php:64 
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:77 
+#: src/classes/Nexi/WC_Gateway_XPay_APM.php:51
+msgid "Please use "
+msgstr "Si prega di utilizzare "
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:293
+msgid "Preview"
+msgstr "Anteprima"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:288
+msgid "Real time payment directly from your bank account with EPS"
+msgstr "Paga in tempo reale direttamente dal tuo conto bancario con EPS"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:395
+msgid "Recurring Alias"
+msgstr "Alias ricorrenze"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:401
+msgid "Recurring key MAC"
+msgstr "Chiave MAC ricorrenze"
+
+#: src/classes/Nexi/WC_Gateway_NPG_Cards.php:139 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:179
+msgid "Remember the payment option."
+msgstr "Salva carta di pagamento."
+
+#: src/classes/Nexi/WC_Gateway_XPay_API.php:118
+msgid "Response KO"
+msgstr "Risposta KO"
+
+#: templates/npg_payment_detail.php:115
+msgid "Result"
+msgstr "Esito"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:308
+msgid "Secure payment directly from your bank account with PayU"
+msgstr "Paga in sicurezza direttamente dal tuo conto bancario con PayU"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:293
+msgid "Secure payment directly from your bank account with Przelewy24"
+msgstr "Paga in sicurezza direttamente dal tuo conto bancario con Przelewy24"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:313
+msgid "Secure payment directly from your home banking with Blik"
+msgstr "Paga in sicurezza direttamente dal tuo home banking con Blik"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:318
+msgid "Secure payment directly from your home banking with Multibanco"
+msgstr "Paga in sicurezza direttamente dal tuo home banking con Multibanco"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:168
+msgid ""
+"Select \"Alias and MAC Key\" option if you received the credentials of the "
+"production environment in the Welcome Mail received from Nexi during the "
+"activation of the service"
+msgstr ""
+"Seleziona l'opzione \"Alias - Chiave MAC\" se hai ricevuto le credenziali "
+"dell’ambiente di produzione nella Welcome Mail ricevuta da parte di Nexi in "
+"fase di attivazione del servizio"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:169
+msgid ""
+"Select \"APIKey\" option if you use the API Key as the credential of the "
+"production environment generated from the Back Office XPay. Follow the "
+"directions in the developer portal for the correct generation process."
+msgstr ""
+"Seleziona l'opzione \"APIKey\" se si utilizza l'API Key come credenziale "
+"dell’ambiente di produzione generata da Back Office XPay. Seguire le "
+"indicazioni nel portale sviluppatori per il procedimento di generazione "
+"corretto."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:164
+msgid "select Tax Code Field"
+msgstr "seleziona Campo Codice Fiscale"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:84
+msgid "Select the categories on which you want to enable payment via PagoDIL."
+msgstr ""
+"Seleziona le categorie su cui vuoi abilitare il pagamento tramite PagoDIL."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:91
+msgid ""
+"Select the field of your shop that corresponds to the tax code, it will be "
+"used by the plugin during the payment phase with PagoDIl: in this way the "
+"customer will not have to enter this data manually on the PagoDIL payment "
+"page."
+msgstr ""
+"Seleziona il campo del tuo negozio che corrisponde al codice fiscale, verrà "
+"utilizzato dal plugin in fase di pagamento con PagoDIl: il cliente in questo "
+"modo non dovrà inserire il dato manualmente sulla pagina di pagamento "
+"PagoDIL."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:131
+msgid "Select the PagoDIL logo displayed in the widget."
+msgstr "Selezionare il logo PagoDIL presente all'interno del widget."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:76
+msgid ""
+"Setting up installment products:<br>- For selected categories: select the "
+"categories of products of the store that you want to set as payable in "
+"installments from the drop-down list below.<br>- All categories: all the "
+"products in the store will be configured as payable in installments."
+msgstr ""
+"Impostazione dei prodotti rateizzabili:<br>- Per categorie selezionate: "
+"seleziona le categorie di prodotti del negozio che vuoi impostare come "
+"rateizzabili, dall'elenco a tendina sottostante.<br>- Tutte le categorie: "
+"tutti i prodotti nel negozio verranno configurati come rateizzabili."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:113
+msgid "Show widget"
+msgstr "Visualizza widget"
+
+#: src/classes/Nexi/WC_Gateway_Nexi_Register_Available.php:238
+msgid ""
+"Simply pay by bank transfer directly from your home banking with PagoinConto"
+msgstr ""
+"Paga semplicemente con bonifico direttamente dal tuo home banking con "
+"PagoinConto"
+
+#: templates/xpay_payment_detail.php:51
+msgid "Status: "
+msgstr "Stato: "
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:287
+msgid "Style configuration"
+msgstr "Configurazione stile"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:384
+msgid "Subscription configuration"
+msgstr "Configurazione ricorrenze"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:88
+msgid "Tax code"
+msgstr "Codice fiscale"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:368
+msgid "Text Color"
+msgstr "Colore testo"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:370
+msgid "Text color in input field"
+msgstr "Colore del testo nei campi input"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:361
+msgid "Text color of placeholder"
+msgstr "Il colore del testo del valore placeholder"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:260
+msgid ""
+"Thank you for shopping with us. However, the transaction has been declined."
+msgstr "Grazie per l'acquisto. Tuttavia, la transazione è stata rifiutata."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:143
+msgid ""
+"The 3D Secure 2 protocol adopted by the main international circuits (Visa, "
+"MasterCard, American Express), introduces new authentication methods, able "
+"to improve and speed up the cardholder's purchase experience."
+msgstr ""
+"Il nuovo protocollo 3D Secure 2 adottato dai principali circuiti "
+"internazionali (Visa, MasterCard, American Express), introduce nuove "
+"modalità di autenticazione, in grado di migliorare e velocizzare "
+"l’esperienza di acquisto del titolare della carta."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:213
+msgid ""
+"The field identifies the collection method that the merchant wants to apply "
+"to the single transaction, if valued with:<br>- I (immediate) the "
+"transaction if authorized is also collected without further intervention by "
+"the operator and without considering the default profile set on the terminal."
+"<br>- D (deferred) or the field is not inserted the transaction if "
+"authorized is managed according to what is defined by the terminal profile"
+msgstr ""
+"Il campo identifica la modalità di incasso che l'esercente vuole applicare "
+"alla singola transazione, se valorizzato con: <br>- I (immediata) la "
+"transazione se autorizzata viene anche incassata senza altri interventi da "
+"parte dell'esercente e senza considerare il profilo di default impostato sul "
+"terminale. <br>- D (differita) o non viene inserito il campo la transazione "
+"se autorizzata viene gestita secondo quanto definito dal profilo del "
+"terminale"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:301
+msgid "The font family in the CC Form"
+msgstr "Il font family nel form per le carte di credito"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:140
+msgid ""
+"The notification is essential for the functioning of the plugin, it is "
+"therefore necessary that it is not blocked or filtered by the site "
+"infrastructure."
+msgstr ""
+"La notifica è fondamentale per il funzionamento del plugin, è quindi "
+"necessario che non venga bloccata o filtrata dall'infrastruttura del sito."
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:138
+msgid ""
+"The PagoDIL widget has an information icon pointing to a predefined web "
+"address. It is possible to change the information section by entering a new "
+"address in the form."
+msgstr ""
+"Il widget PagoDIL presenta un'icona di informativa che punta ad un indirizzo "
+"web predefinito. E' possibile modificare la sezione di informativa inserendo "
+"nell'apposito form un nuovo indirizzo."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:309
+msgid "The size of the font in the CC Form in pixel"
+msgstr "La gradezza del font nel form per le carte di credito"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:335
+msgid "The space between letters in pixel"
+msgstr "Spaziatura in pixel"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards_Build.php:140
+msgid "The transaction has been declined, please retry."
+msgstr "La transazione è stata rifiutata. Si prega di riprovare."
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:67 
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:78
+msgid "To be authorized"
+msgstr "Da Autorizzare"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Cards.php:72
+#, php-format
+msgid "To be authorized (%s)"
+msgid_plural "To be authorized (%s)"
+msgstr[0] "Da Autorizzare (%s)"
+msgstr[1] "Da Autorizzare (%s)"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:204
+msgid "to get the test credentials."
+msgstr "per avere le tue credenziali di test."
+
+#: templates/xpay_payment_detail.php:44
+msgid "Transaction code: "
+msgstr "Codice transazione: "
+
+#: templates/xpay_payment_detail.php:35 templates/npg_payment_detail.php:70
+msgid "Transaction detail"
+msgstr "Dettaglio transazione"
+
+#: templates/xpay_payment_detail.php:73 templates/npg_payment_detail.php:114
+msgid "Type of operation"
+msgstr "Tipo di operazione"
+
+#: src/classes/Nexi/WC_Gateway_XPay_Process_Completion.php:274
+#, php-format
+msgid "Unable to account order %s. Order does not have XPay capture reference."
+msgstr ""
+"Impossibile contabilizzare l'ordine %s. L'ordine non ha un riferimento XPay."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:505
+msgid "Unable to complete account operation."
+msgstr "Operazione di contabilizzazione fallita."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:439
+msgid "Unable to complete refund operation."
+msgstr "Operazione di storno fallita."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:672
+msgid "Unable to finalize the payment."
+msgstr "Errore durante la finalizzazione del pagamento."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:192 
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:651
+msgid "Unable to initialize the payment."
+msgstr "Errore durante l'inizializzazione del pagamento."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:555
+msgid "Unable to perform the recurring payment."
+msgstr "Non è stato possibile effettuare il pagamento ricorrente."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:313 
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:334
+msgid "Unable to retrive customer related info."
+msgstr "Non è stato possibile recuperare le informazione legate al cliente."
+
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:353 
+#: src/classes/Nexi/WC_Gateway_NPG_API.php:361
+msgid "Unable to retrive order related info."
+msgstr "Non è stato possibile recuperare le informazione legate all'ordine."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:445
+msgid "Up to an amount of"
+msgstr "Fino ad un importo di"
+
+#: woocommerce-gateway-nexi-xpay.php:301
+msgid ""
+"Warning, the PHP extension bcmath is not enabled. The amounts calculated by "
+"the plugin may be incorrect; please enable it to ensure correct calculations."
+msgstr ""
+"Attenzione, l'estensione PHP bcmath non è abilitata. Gli importi calcolati "
+"dal plugin potrebbero essere errati; si prega di abilitarla per garantire "
+"calcoli corretti."
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:352
+msgid "When form has error"
+msgstr "Quando il form ha errori"
+
+#: src/classes/Nexi/WC_Gateway_Admin.php:343
+msgid "When form is empty or correct"
+msgstr "Quando il form è vuoto o corretto"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:256
+msgid "White"
+msgstr "Bianco"
+
+#: src/classes/Nexi/WC_Pagodil_Configuration.php:108
+msgid "Widget PagoDIL"
+msgstr "Widget PagoDIL"
+
+#: templates/pagodil_checkout.php:4
+msgid ""
+"With PagoDIL by Cofidis, the merchant allows you to defer the payment in "
+"convenient installments without costs or interest."
+msgstr ""
+"Con PagoDIL by Cofidis, l’esercente ti permette di dilazionare il pagamento "
+"in comode rate senza costi né interessi"
+
+#: templates/npg_build_payment.php:10
+msgid "XPay Build session expired"
+msgstr "Sessione XPay Build scaduta"
+
+#: src/classes/Nexi/WC_Admin_Page.php:132
+msgid "XPay payment details"
+msgstr "Dettagli di pagamento XPay"
+
+#: src/classes/Nexi/WC_Admin_Page.php:156
+msgid "Zloty"
+msgstr "Zloty"
